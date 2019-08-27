@@ -179,36 +179,109 @@ img {
   }
 }
 .header-content {
-  background-color: grey;
-  flex-direction: row-reverse;
   padding-right: 4rem;
+  background-color: #7ecfc0;
 }
 .header-content nav {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row-reverse;
+  padding: 2rem;
 }
 .header-content nav a {
   text-decoration: none;
   color: #d2fafb;
   padding-left: 2rem;
+  font-size: 1.5rem;
 }
 .header-content nav a:hover {
   color: #f77754;
+}
+.container {
+  background-color: #f7f7f7;
 }
 .top-content {
   background-image: url(/img/blur-close-up-dining-225228.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  height: 70rem;
+  height: 60rem;
   width: 100%;
-  text-align: center;
   display: flex;
   justify-content: space-between;
   padding: 10rem 0;
+  text-align: center;
 }
 .top {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
+  font-size: 2rem;
+  color: #522222;
+}
+.top h1 {
+  font-weight: bolder;
+}
+.top button {
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 2rem;
+  border-radius: 2rem;
+  margin: 0 20rem;
+  border: none;
+}
+.middle-content-1 {
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.middle-content-1 h1 {
+  color: grey;
+  font-weight: bolder;
+  padding: 0 2rem;
+}
+.middle-content-1 p {
+  padding: 5rem 5rem;
+  text-align: center!important;
+  color: #2c2c2c;
+  font-size: 2rem;
+}
+.middle-content-2 {
+  display: flex;
+  padding: 2rem 0;
+}
+.middle-content-2 img {
+  width: 100%;
+  padding-right: 5rem;
+}
+.middle-content-2 .subclass-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.middle-content-2 .subclass-1 h1 {
+  padding-bottom: 2rem;
+}
+.middle-content-2 .subclass-1 p {
+  padding-right: 4rem;
+}
+.middle-content-3 {
+  display: flex;
+  padding: 5rem 0;
+}
+.middle-content-3 .subclass-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 4rem;
+}
+.middle-content-3 .subclass-2 h1 {
+  padding-bottom: 2rem;
+}
+.middle-content-3 .subclass-2 p {
+  padding-right: 4rem;
+}
+.middle-content-3 img {
+  width: 450rem;
 }
