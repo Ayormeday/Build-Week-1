@@ -5,31 +5,14 @@
     -o-background-size: cover;
     height: 70rem;
     width: 100%;
-}
-.top-content {
-    .flex-base(space-between);
-    background-size: cover;
-    padding: 10rem 0;
-    background-repeat: no-repeat;
     text-align: center;
-    
+    .flex-base(space-between);
+    padding: 10rem 0;
 }
 
-header {
-    .flex-base(space-between);
-    font-size: 2rem;
-    padding: 2rem 0;
-    
-    @media @mobile {
-    flex-direction:column;
-    h1 {
-        text-align: center;
-        padding-bottom: 2rem;
-        
-    }
-    nav {
-        text-align: center;
-        .flex-base(space-between)
-    }    
-    }
+
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

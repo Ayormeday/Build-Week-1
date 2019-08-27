@@ -192,6 +192,9 @@ img {
   color: #d2fafb;
   padding-left: 2rem;
 }
+.header-content nav a:hover {
+  color: #f77754;
+}
 .top-content {
   background-image: url(/img/blur-close-up-dining-225228.jpg);
   -webkit-background-size: cover;
@@ -199,32 +202,13 @@ img {
   -o-background-size: cover;
   height: 70rem;
   width: 100%;
-}
-.top-content {
-  display: flex;
-  justify-content: space-between;
-  background-size: cover;
-  padding: 10rem 0;
-  background-repeat: no-repeat;
   text-align: center;
-}
-header {
   display: flex;
   justify-content: space-between;
-  font-size: 2rem;
-  padding: 2rem 0;
+  padding: 10rem 0;
 }
-@media (max-width: 500px) {
-  header {
-    flex-direction: column;
-  }
-  header h1 {
-    text-align: center;
-    padding-bottom: 2rem;
-  }
-  header nav {
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-  }
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
