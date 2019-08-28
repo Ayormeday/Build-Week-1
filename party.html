@@ -17,16 +17,16 @@
         <div id ="party-details">
             <form action="">
                 <div>
-                    <label for="guests"></label>
+                    <label for="guests">Number of Guests</label>
                     <input type="number" id="guests" placeholder="Enter number of guests">
 
-                    <label for="date"></label>
+                    <label for="date">Event Date</label>
                     <input type="datetime" id="date" placeholder="Enter date of event">
 
-                    <label for="theme"></label>
+                    <label for="theme">Event Theme</label>
                     <input type="text" id="theme" placeholder="Enter event theme">
 
-                    <label for="budget"></label>
+                    <label for="budget">Event Budget </label>
                     <input type="number" id="budget" placeholder="Enter budget list">
                 </div>
             </form>
@@ -38,14 +38,27 @@
         </div>
 
         <div id = "shopping-list">
-            <input type="text" id= "shop1" placeholder= "enter list of shopping items">
-            <button>Add</button>
+            <div>
+                <input type="text" id= "shop-list" placeholder= "Enter item">
+                <button id="add-shopping-item">Add</button>
+            </div>
+            <ul id= "shopping-list-ul">
+               
+            </ul>
         </div>
 
         <div id = "to-do-list">
-
+            <div>
+                <input type="text" id= "to-do" placeholder= "Enter item">
+                <button id="add-todo-item">Add</button> 
+            </div>
+            <ul id="todo">
+               
+            </ul>
         </div>
     </div>
+   
     
+    <script src="party.js"></script>
 </body>
 </html>
