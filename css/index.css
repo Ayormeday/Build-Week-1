@@ -274,6 +274,9 @@ footer p {
   border: none;
   background: #e4d1d1;
 }
+.top button:hover {
+  background-color: #522222;
+}
 .top p {
   font-weight: bolder;
 }
@@ -315,13 +318,14 @@ footer p {
   padding: 2rem 0;
 }
 .middle-content-2 img {
-  width: 100%;
-  padding-right: 5rem;
+  width: 220rem;
+  border-radius: 2rem;
 }
 .middle-content-2 .subclass-1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-left: 5rem;
 }
 .middle-content-2 .subclass-1 h1 {
   padding-bottom: 2rem;
@@ -391,13 +395,14 @@ footer p {
   background: #e6dbdb;
 }
 .middle-content-5 img {
-  width: 40rem;
+  width: 80rem;
   border-radius: 2rem;
 }
 .middle-content-5 .sub-class-4 {
   display: flex;
   flex-direction: column;
   padding-top: 4rem;
+  padding: 8rem 5rem;
 }
 .middle-content-5 h1 {
   color: #522222;
