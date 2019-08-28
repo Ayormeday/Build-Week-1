@@ -304,7 +304,7 @@ footer p {
   border-radius: 2rem;
   margin: 0 35rem;
   border: none;
-  background: #e16363;
+  background: #a15757;
 }
 .middle-content-1 button:hover {
   background-color: #993f3f;
@@ -419,6 +419,19 @@ footer p {
   color: #2c2c2c;
   font-size: 1.7rem;
 }
+@media (max-width: 500px) {
+  .middle-content-4 {
+    dislay: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .middle-content-4 img {
+    width: 45rem;
+  }
+  .middle-content-4 .sub-class-3 {
+    padding-top: 3rem;
+  }
+}
 .middle-content-5 {
   display: flex;
   flex-direction: row-reverse;
@@ -445,4 +458,14 @@ footer p {
 .middle-content-5 p {
   font-size: 1.5rem;
   color: #2c2c2c;
+}
+@media (max-width: 500px) {
+  .middle-content-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .middle-content-5 img {
+    width: 45rem;
+  }
 }
