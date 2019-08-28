@@ -15,6 +15,9 @@
     .flex-base(center);
     padding: 10rem 0;
     text-align: center;
+    @media @mobile {
+        height: 48rem;
+    }
 }
 
 
@@ -41,24 +44,42 @@
     p {
         font-weight: bolder;
     }
+    @media @mobile {
+        padding-top: 32rem;
+        h1 {
+            font-size: 2.5rem;
+        }
+        p {
+            font-size: 1.5rem;
+        }
+        button {
+            padding: 1rem;
+            font-size: 1.5rem;
+        }
+    }
+
 }
 
 .middle-content-1 {
-    padding-top: 4rem;
+    padding: 4rem;
     display: flex;
     flex-direction: column;
     text-align: center;
+    background: #e6dbdb;
     h1 {
         color:#522222;
         padding: 0 2rem;
         font-weight: bolder;
     }
     p {
-        padding: 5rem 5rem;
+        padding: 4rem 5rem;
         text-align:center!important;
         color: #2c2c2c;
         font-size: 2rem;
         color:#2c2c2c;
+    }
+    @media @mobile {
+
     }
     
 }
@@ -90,7 +111,8 @@
 
 .middle-content-3 {
     display: flex;
-    padding: 5rem 0;
+    padding: 5rem 0; 
+    background: white;
     .subclass-2 {
         display: flex;
         flex-direction: column;
@@ -140,6 +162,7 @@
 }
 
 .middle-content-5 {
+    display: flex;
     padding-top: 7rem;
     text-align: center;
     padding-bottom: 5rem;
