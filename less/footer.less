@@ -1,4 +1,4 @@
-footer {
+footer.home-page {
     background-color:#522222;
     width: 100%;
     display: flex;
@@ -50,3 +50,59 @@ footer {
     }
 
 }
+
+
+.party-footer {
+    background-color:#522222;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+    nav {
+    width: 100%;
+    text-align: center;
+    padding: 20px 2%;
+    font-size: 1.4rem;
+    }
+    a {
+        text-decoration: none;
+        color: #d2fafb;
+        text-align: center;
+        padding: 0 2rem;
+    }
+    p{
+        color: black;
+        font-size: small;
+    }
+    @media @tablet {
+        nav a{
+            font-size: 1.5rem;
+        }
+        img {
+            width: 10rem;
+        }
+        p {
+            font-size: small;
+        }
+
+    }
+    @media @mobile {
+        img {
+            width: 10rem;
+        }
+        nav {
+            padding-bottom: 22px;
+        }
+        nav a {
+            font-size: 1.2rem;
+        }
+        p {
+            font-size: small;
+        }
+    }
+    
+}
+
+

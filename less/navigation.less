@@ -44,4 +44,49 @@
     
 }
 
+// party-page navigation css here
+
+.party-header {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 4rem;
+    background-color:#522222;
+    img {
+        width: 15rem;
+        padding-left: 2rem;
+    }
+    nav {
+        display: flex;
+        padding: 2rem;
+        align-items: center; 
+        a {
+        text-decoration: none;
+        color: #d2fafb;
+        padding-left: 2rem;
+        font-size: 1.5rem; 
+        }
+        a:hover {
+            color: #f77754;
+        }
+        
+    }
+    @media @tablet {
+        nav a{
+            font-size: 1.5rem;
+        }
+        img {
+            width: 10rem;
+        }
+    }
+    @media @mobile {
+        img {
+            width: 10rem;
+        }
+        nav a {
+            font-size: 1.2rem;
+        }
+    }
+    
+}
+
 
