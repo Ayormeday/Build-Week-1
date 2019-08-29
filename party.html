@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Party Planner</title>
+</head>
+<body>
+    <div class="container">
+        <header class="party-header">
+            <figure class="logo">
+                <a href="build.html"><img src="/img/pearl-ivy-events-logo.png" alt=""></a>
+            </figure>
+            <nav class="party-nav">
+                <a href="#party-details">Party Details</a>
+                <a href="#mood-board">Mood Board</a>
+                <a href="#shopping-lisy">Shopping List</a>
+                <a href="#to-do-list">To do List</a>
+            </nav>
+        </header>
+
+        <div id ="party-details">
+            <h1>Party Details</h1>
+            <form>
+                <div class= "form-details">
+                    <label for="guests">Number of Guests</label>
+                    <input type="number" id="guests" placeholder="Enter number of guests">
+
+                    <label for="date">Event Date</label>
+                    <input type="date" id="date" placeholder="Enter date of event">
+
+                    <label for="theme">Event Theme</label>
+                    <input type="text" id="theme" placeholder="Enter event theme">
+
+                    <label for="budget">Event Budget </label>
+                    <input type="number" id="budget" placeholder="Enter budget list">
+                </div>
+                <button id="add-details">Upload</button>
+                <ul id="test"></ul>
+            </form>
+        </div>
+
+        <div id = "mood-board">
+            <h1>Party Mood Board</h1>
+            <label for="mood"></label>
+            <input type="file" multiple accept="image/*"  id="mood" placeholder="upload images">
+        </div>
+
+        <div id = "shopping-list">
+            <h1>Shopping List</h1>
+            <div>
+                <input type="text" id= "shop-list" placeholder= "Enter item">
+                <button id="add-shopping-item">Add</button>
+            </div>
+            <ul id= "shopping-list-ul">
+               
+            </ul>
+        </div>
+
+        <div id = "to-do-list">
+            <h1>To do List</h1>
+            <div>
+                <input type="text" id= "to-do" placeholder= "Enter item">
+                <button id="add-todo-item">Add</button> 
+            </div>
+            <ul id="todo">
+               
+            </ul>
+        </div>
+   
+        <footer class="party-footer">
+            <nav class="party-footer-nav">
+                <a href="#party-details">Party Details</a>
+                <a href="#mood-board">Mood Board</a>
+                <a href="#shopping-lisy">Shopping List</a>
+                <a href="#to-do-list">To do List</a>
+            </nav>
+            <p>Copyright PartyPlanner 2019. | All Rightd Reserved</p>
+        </footer>
+
+    </div>
+
+
+
+
+
+    <script src="party.js"></script>
+</body>
+</html>
