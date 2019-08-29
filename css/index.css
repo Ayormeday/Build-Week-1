@@ -651,6 +651,9 @@ footer.home-page p {
     flex-direction: column;
     align-items: center;
   }
+  .middle-content-5 p {
+    text-align: justify;
+  }
 }
 #party-details {
   padding-top: 5rem;
