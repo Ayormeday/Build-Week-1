@@ -23,13 +23,14 @@
         </header>
 
         <div id ="party-details">
+            <h1>Party Details</h1>
             <form>
-                <div>
+                <div class= "form-details">
                     <label for="guests">Number of Guests</label>
                     <input type="number" id="guests" placeholder="Enter number of guests">
 
                     <label for="date">Event Date</label>
-                    <input type="datetime" id="date" placeholder="Enter date of event">
+                    <input type="date" id="date" placeholder="Enter date of event">
 
                     <label for="theme">Event Theme</label>
                     <input type="text" id="theme" placeholder="Enter event theme">
@@ -37,15 +38,19 @@
                     <label for="budget">Event Budget </label>
                     <input type="number" id="budget" placeholder="Enter budget list">
                 </div>
+                <button id="add-details">Upload</button>
+                <ul id="test"></ul>
             </form>
         </div>
 
         <div id = "mood-board">
+            <h1>Party Mood Board</h1>
             <label for="mood"></label>
-            <input type="file" id="mood" placeholder="upload images">
+            <input type="file" multiple accept="image/*"  id="mood" placeholder="upload images">
         </div>
 
         <div id = "shopping-list">
+            <h1>Shopping List</h1>
             <div>
                 <input type="text" id= "shop-list" placeholder= "Enter item">
                 <button id="add-shopping-item">Add</button>
@@ -56,6 +61,7 @@
         </div>
 
         <div id = "to-do-list">
+            <h1>To do List</h1>
             <div>
                 <input type="text" id= "to-do" placeholder= "Enter item">
                 <button id="add-todo-item">Add</button> 

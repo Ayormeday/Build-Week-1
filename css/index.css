@@ -420,25 +420,27 @@ footer.home-page p {
   font-size: 2rem;
   color: #2c2c2c;
 }
-.middle-content-1 button {
+.middle-content-1 a {
   font-size: 1.5rem;
+  color: white;
   font-weight: 400;
   padding: 2rem 5rem;
   border-radius: 2rem;
   margin: 0 35rem;
   border: none;
   background: #a15757;
+  text-decoration: none;
 }
-.middle-content-1 button:hover {
+.middle-content-1 a:hover {
   background-color: #993f3f;
 }
 @media (max-width: 800px) {
-  .middle-content-1 button {
+  .middle-content-1 a {
     margin: 0 25rem;
   }
 }
 @media (max-width: 500px) {
-  .middle-content-1 button {
+  .middle-content-1 a {
     margin: 0 15rem;
     padding: 2rem;
   }
@@ -644,4 +646,90 @@ footer.home-page p {
   .middle-content-5 img {
     width: 45rem;
   }
+}
+#party-details {
+  padding-top: 5rem;
+}
+#party-details h1 {
+  color: #522222;
+  font-size: 2.5rem;
+  padding-bottom: 2rem;
+  font-weight: bold;
+  padding-left: 2rem;
+}
+#party-details .form-details {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2rem;
+  font-size: 1.8rem;
+}
+#party-details .form-details label {
+  font-size: 1.7rem;
+  padding-bottom: 1.5rem;
+}
+#party-details .form-details input {
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  border: 1px solid grey;
+}
+#party-details .form-details li {
+  font-size: 2rem;
+}
+#party-details button {
+  margin-left: 2rem;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+#mood-board {
+  padding: 3rem 0;
+}
+#mood-board h1 {
+  color: #522222;
+  font-size: 2.5rem;
+  padding-bottom: 2rem;
+  font-weight: bold;
+  padding-left: 2rem;
+}
+#mood-board input {
+  margin: 0 2rem 2rem;
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+#shopping-list h1 {
+  color: #522222;
+  font-size: 2.5rem;
+  padding-bottom: 2rem;
+  font-weight: bold;
+  padding-left: 2rem;
+}
+#shopping-list input {
+  margin: 0 2rem 2rem;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  border: 1px solid grey;
+}
+#shopping-list li {
+  font-size: 2rem;
+}
+#to-do-list {
+  padding: 4rem 0;
+}
+#to-do-list h1 {
+  color: #522222;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+  font-weight: bold;
+  padding-left: 2rem;
+}
+#to-do-list input {
+  margin: 0 2rem 2rem;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  border: 1px solid grey;
+}
+#to-do-list li {
+  font-size: 2rem;
 }
