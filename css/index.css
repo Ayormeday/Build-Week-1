@@ -192,6 +192,7 @@ img {
   display: flex;
   flex-direction: row-reverse;
   padding: 2rem;
+  align-items: center;
 }
 .header-content nav a {
   text-decoration: none;
